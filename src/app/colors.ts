@@ -1,0 +1,28 @@
+import { Color } from './color';
+
+export const COLORS: Color[] = [
+  { name: 'maroon', score: 100, isParticipant: true },
+  { name: 'red', score: 100, isParticipant: true },
+  { name: 'orange' , score: 100, isParticipant: true},
+  {  name: 'brown' , score: 100, isParticipant: true},
+  {  name: 'tan' , score: 100, isParticipant: true},
+  {  name: 'olive' , score: 100, isParticipant: true},
+  {  name: 'yellow' , score: 100, isParticipant: true},
+  {  name: 'lime' , score: 100, isParticipant: true},
+  {  name: 'green' , score: 100, isParticipant: true},
+  {  name: 'cyan' , score: 100, isParticipant: true},
+  {  name: 'teal' , score: 100, isParticipant: true},
+  {  name: 'blue' , score: 100, isParticipant: true},
+  {  name: 'navy' , score: 100, isParticipant: true},
+  {  name: 'purple' , score: 100, isParticipant: true},
+  {  name: 'lavender' , score: 100, isParticipant: true},
+  {  name: 'magenta' , score: 100, isParticipant: true},
+  {  name: 'pink' , score: 100, isParticipant: true},
+  {  name: 'white' , score: 100, isParticipant: true},
+  {  name: 'gray' , score: 100, isParticipant: true},
+  {  name: 'black' , score: 100, isParticipant: true},
+  {  name: 'shadow' , score: 100, isParticipant: true},
+  {  name: 'rose' , score: 100, isParticipant: true},
+  {  name: 'carmine' , score: 100, isParticipant: true}, 
+  {  name: 'indigo' , score: 100, isParticipant: true}, 
+];

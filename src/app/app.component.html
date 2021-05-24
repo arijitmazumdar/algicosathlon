@@ -1,0 +1,18 @@
+<ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+  <li [ngbNavItem]="1">
+    <a ngbNavLink>Setup</a>
+    <ng-template ngbNavContent>
+     <app-setup></app-setup>
+    </ng-template>
+  </li>
+
+  <li [ngbNavItem]="2">
+    <a ngbNavLink>Game</a>
+    <ng-template ngbNavContent>
+      <app-game></app-game>
+    </ng-template>
+    
+  </li>
+</ul>
+
+<div [ngbNavOutlet]="nav" class="mt-2"></div>
